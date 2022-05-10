@@ -7,6 +7,5 @@ Lessons:
 * [Introduction](1-introduction.md)
 * [Signing in](2-access.md)
 * [Creating and running tales](3-create-tale.md)
-* [Recorded runs](4-recorded-run.md)
-* [Sharing](5-sharing.md)
-* [Export and publish](6-export-publish.md)
+* [Sharing](4-sharing.md)
+* [Export and publish](5-export-publish.md)
