@@ -16,6 +16,6 @@ Please feel free to submit any issues or suggestions via the following Github re
 
 https://github.com/whole-tale/whole-tale/issues/new/choose
 
-### Next
+### Next up
 
->> [Introduction](1-introduction.md)
+[Introduction](1-introduction.md)
