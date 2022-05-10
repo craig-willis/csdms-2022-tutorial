@@ -146,7 +146,8 @@ The easiest way to inspect the run is in the JupyterLab instance:
 
 
 ## Key points:
-* The Compose page is used to create a new tale using the selected environment
-* The home directory is a place for you to store information that is not part of any Tale
+* You can create a new tale based on your preferred interactive environment
 * The workspace directory contains all of the files associated with your tale
 * The tale environment can be customized using repo2docker compatible configuration files
+  - Note: For MATLAB and STATA users, see the [Whole Tale User's Guide](https://wholetale.readthedocs.io/en/stable/users_guide/customizing.html)
+* You can run programs and generate results interactively or via the recorded run feature
