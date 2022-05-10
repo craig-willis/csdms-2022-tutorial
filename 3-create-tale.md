@@ -1,4 +1,4 @@
-# Creating tales
+# Creating and running tales
 
 In this lesson you'll learn how to create a new tale in Whole Tale.
 
@@ -151,3 +151,7 @@ The easiest way to inspect the run is in the JupyterLab instance:
 * The tale environment can be customized using repo2docker compatible configuration files
   - Note: For MATLAB and STATA users, see the [Whole Tale User's Guide](https://wholetale.readthedocs.io/en/stable/users_guide/customizing.html)
 * You can run programs and generate results interactively or via the recorded run feature
+
+## Next
+
+[Sharing, exporting and publishing tales](4-sharing.md)
