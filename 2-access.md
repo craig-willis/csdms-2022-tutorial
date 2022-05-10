@@ -55,3 +55,8 @@ You can always authorize Whole Tale again later.
 * You are authorizing Whole Tale to access information about you stored in Globus, but Whole Tale will never see your password
 * Globus Auth also allows Whole Tale to transfer data from Globus endpoints to Whole Tale on your behalf
 * You can always rescind your consent
+
+
+## Next
+
+[Creating and running tales](3-create-tale.md)
