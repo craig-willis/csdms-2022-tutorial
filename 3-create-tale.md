@@ -39,7 +39,7 @@ The tale landing page allows you to:
 
 From the tale metadata page, select the **Edit** button:
 
-<img src="images/create-tale/tale-metadata.png" width=500>
+<img src="images/create-tale/tale-metadata.png" width=500 border=1> 
 
 From this page you can:
 * Edit your tale's metadata including title, authors, description, license
