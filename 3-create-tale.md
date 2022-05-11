@@ -33,9 +33,13 @@ The tale landing page allows you to:
 * Update your tale's metadata
 * Share you tale with other users
 
+<img src="images/create-tale/tale-page.png" width=500>
+
 ## Activity: Edit tale metadata
 
-You should now be on your tale's metadata page. Select the "Edit" button.
+From the tale metadata page, select the **Edit** button:
+
+<img src="images/create-tale/tale-metadata.png" width=500>
 
 From this page you can:
 * Edit your tale's metadata including title, authors, description, license
@@ -43,9 +47,13 @@ From this page you can:
 * Change the interactive environment
 * Note: You must provide a valid ORCID for each author for export and publishing
 
-Select "Save" or "Cancel".
+Select **Save**.
 
 ## Tale directory structure
+
+Select the **Files** tab:
+
+<img src="images/create-tale/tale-files.png" width=500>
 
 Each tale includes several different folders that are accessible (1) through the Whole Tale dashboard and (2) mounted into your running environment.
 
@@ -66,23 +74,23 @@ The "Home" folder is a special folder that can be used to store files that are n
 
 ## Activity: Launching and accessing the interactive environment
 
-* Select the "Run Tale" button
+* Select the **Run Tale** button
 * A notification panel will display
 * The JupyterLab environment will display below the *Interact* tab
 * Optionally, select the "popout" icon to open the environment in a separate tab or window
 
 You should see an empty JupyterLab environment:
 
-<img src="images/create-tale/jupyterlab.png" width=500>
+<img src="images/create-tale/tale-interact.png" width=500>
 
 ## Activity: Download example files
 
 Download and extract [csdms-2022.zip](/releases/download/v1.0/csdms-2022.zip).
 
 This zipfile contains:
-* landlab_example.py: Simple Python script that generates two figures
-* environment.yml: Conda configuration file to install landlab
-* run.sh: Simple script for a recorded run
+* `landlab_example.py`: Simple Python script that generates two figures
+* `environment.yml`: Conda configuration file to install landlab
+* `run.sh`: Simple shell script for a recorded run
 
 This example demonstrates the following:
 * Uploading files to the workspace
@@ -91,50 +99,64 @@ This example demonstrates the following:
 
 ## Activity: Uploading files
 
-* Select the "Files" tab
-* Select "Tale Workspace"
-* Select the blue "+" button and select "Upload file"
+Upload the files to your tale workspace:
+
+* Select the **Files** tab
+* Select **Tale Workspace**
+* Select the blue "+" button and select **Upload file**
 * Select the example files and upload to your workspace
+
+<img src="images/create-tale/upload-files.png" width=500>
 
 Note:
 * You can upload to your workspace via Whole Tale or the JupyterLab interface
 
 ## Activity: Customizing the environment
 
-The uploaded `environment.yml` specifies dependencies required by the example script, but they are not yet installed in your environment.   
+Whole Tale allows you to specify software dependencies using `repo2docker` conventions.
 
-To install these dependencies:
-* Select the tale ("...") menu > **Rebuild Tale**
+The uploaded Conda `environment.yml` specifies the Landlab dependencies required by the example script, but they are not yet installed in your environment. 
+
+To install these dependencies (build them into the underlying Docker image):
+* Select the tale <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/ellipsis-vertical.svg" width="20" height="20"> menu > **Rebuild Tale**
   - A notification panel will display the progress of the build
-* Select the tale ("...") menu > **Restart Tale**
+* Select the tale <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/ellipsis-vertical.svg" width="20" height="20"> menu > **Restart Tale**
 
 ## Activity: Run the example program
 
-Let's confirm that the script runs as expected.
-* Open your JupyterLab environment
+With the Landlab dependencies installed, you can interactively run the script:
+
+* Open your JupyterLab interactive environment
 * From the JupyerLab menu, Select **File > New > Terminal**
 * Enter `python landlab_example.py`
-* Confirm that the `figures` folder is created and that it contains two images. Inspect the images
+* Confirm that the `figures` folder is created and that it contains two images. Inspect the images.
 * Remove the `figures` folder
 
 ## Activity: Starting a recorded run
 
+As discussed earlier, a "recorded run" executes your workflow in an isolated container. Unlike interactive execution, a recorded run guarantees that a specific version of your code, data, and workflow were used to obtain a particular result.
+
 * Select the tale history icon <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/clock-rotate-left.svg" width="20" height="20">
-* Select the "Perform Run" button
+* Select the **Perform Run** button
 * Confirm the entrypoint script is `run.sh`
-* Select "Perform Recorded Run"
+* Select **Perform Recorded Run**
+
+<img src="images/create-tale/tale-history.png" width=500>
 
 What's happening?
-* A version is created based on the current state of your tale
+* A version of your tale is created
   - In the dashboard, browse to **Files > Saved Versions** to see the version
   - In the container, `ls ../versions`
 * A new recorded run is created from the version
   - In the dashboard, browse to **Files > Recorded Runs** to see the run
   - In the container, `ls ../runs`
 * A new container is started using the tale image
-* The `run.sh` entrypoint scrit is captured
+* The `run.sh` entrypoint script is captured
 
 The run should complete with a status "Success". 
+
+
+<img src="images/create-tale/recorded-run-success.png" width=500>
 
 The easiest way to inspect the run is in the JupyterLab instance:
 * Via terminal, `ls -alR ../runs`
