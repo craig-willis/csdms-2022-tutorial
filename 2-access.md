@@ -25,12 +25,15 @@ Globus Auth is one service provided by Globus that makes it easy for developers 
 ## Activity: Signing in to Whole Tale
 
 Go to https://dashboard.wholetale.org and select "Access Whole Tale":
+
 <img src="images/sign-in/landing_page.png" width=500>
 
-Type some part of the name of your institution such as "Urbana" and then select "Continue"
+Type some part of the name of your institution and then select "Continue"
+
 <img src="images/sign-in/organization_selection.png" width=500>
 
 If you've never accessed Whole Tale, you'll be prompted to authorize Whole Tale to access information about you via Globus Auth. Select "Allow" if you want to access Whole Tale:
+
 <img src="images/sign-in/consent.png" width=500>
 
 A note about what you are authorizing:
