@@ -132,6 +132,9 @@ With the Landlab dependencies installed, you can interactively run the script:
 * Confirm that the `figures` folder is created and that it contains two images. Inspect the images.
 * Remove the `figures` folder
 
+
+<img src="images/create-tale/landlab-output.png" width=500>
+
 ## Activity: Starting a recorded run
 
 As discussed earlier, a "recorded run" executes your workflow in an isolated container. Unlike interactive execution, a recorded run guarantees that a specific version of your code, data, and workflow were used to obtain a particular result.
