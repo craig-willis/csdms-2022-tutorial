@@ -1,6 +1,8 @@
-# Whole Tale Clinic (CSDMS 2022)
+# Publishing Transparent & Reproducible Computational Research with Whole Tale
 
-Tutorial material for CSDMS Annual Meeting, May 19th, 2022.
+Tutorial materials for CSDMS Annual Meeting, May 19th, 2022.
+
+Accompanying [presentation](https://docs.google.com/presentation/d/1-ymuiZCEAixkPhCeg3ISwoyWOko8e9dt-1m1P2WBgz8/edit#slide=id.g615dfd15c5_0_0)
 
 Lessons:
 * [First things](0-communication.md)
