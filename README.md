@@ -10,3 +10,6 @@ Lessons:
 * [Signing in](2-access.md)
 * [Creating and running tales](3-create-tale.md)
 * [Sharing, exporting and publishing tales](4-sharing.md)
+* [Working with externally registered data](5-external-data.md)
+* [Working with MATLAB](6-matlab.md)
+* [Post-Clinic Questionnaire](https://forms.gle/aZEhN4KSLTpVgXNF8)
