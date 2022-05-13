@@ -85,7 +85,7 @@ You should see an empty JupyterLab environment:
 
 ## Activity: Download example files
 
-Download and extract [csdms-2022.zip](/releases/download/v1.0/csdms-2022.zip).
+Download and extract [csdms-2022.zip](https://github.com/craig-willis/csdms-2022-tutorial/releases/download/v1.0/csdms-2022.zip).
 
 This zipfile contains:
 * `landlab_example.py`: Simple Python script that generates two figures
