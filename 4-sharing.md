@@ -117,4 +117,6 @@ Publish your tale to Zenodo:
 * You can publish your tale to supported repositories via Whole Tale 
 * You can also publish the exported tale to any repository outside of Whole Tale
 
+## Next
 
+[Working with External Data](5-external-data.md)

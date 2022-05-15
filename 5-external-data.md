@@ -74,7 +74,9 @@ What's happening?
 * Whole Tale allows you to register and add external data to your tales to prevent duplication of data and ensure proper attribution.
 
 
+## Next
 
+[Working with MATLAB](6-matlab.md)
 
 
 
