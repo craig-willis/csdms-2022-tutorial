@@ -4,19 +4,16 @@ Whole Tale allows you to work with and publish references to externally managed 
 
 Questions:
 * What is "external data"?
-* What is a research data repository?
-* What is a digital object identifier?
-* How do I register external data?
+* How do I register and cite external data?
 
 Objectives:
-* Learn about research repositories
-* Learn about data citation
+* Learn about automatic data citation in Whole Tale
 * Learn which repositories are currently supported
 
 
 ## Use case
 
-A researcher is publishing the results of an analysis that relies on part of a previously published publicly accessible dataset. Instead of publishing a copy of the source data, they want to reference it in their published tale.  researchers get proper attribution/credit for published datasets.
+A researcher is publishing the results of an analysis that relies on part of a previously published publicly accessible dataset. Instead of publishing a copy of the source data, they want to reference it in their published tale. The original researchers get proper attribution/credit for their published dataset.
 
 ## External Data in Whole Tale
 
