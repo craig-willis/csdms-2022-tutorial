@@ -25,9 +25,9 @@ Whole Tale allows you to register data from external repositories for use in you
 * Select the **Files** tab then **External Data**
 * Select the blue **+** button
 
-<img src="images/external-data/register-doi.png" width=500>
+<img src="images/external-data/register-doi.png" width=700>
 
-* Select **Web (DOI or URL)
+* Select **Web (DOI or URL)**
 * Enter the DOI `10.5065/D6862DM8`
 * Select **Search** to find the `Humans and Hydrology...` dataset then **Register**
 
@@ -44,12 +44,12 @@ What's happening?
 * In the catalog window, double-click the "Humans and Hydrology..." dataset
 * Single click the `usco2005.xls` file then **Add Selected** then **Save**
 
-<img src="images/external-data/select-file.png" width=500>
+<img src="images/external-data/select-file.png" width=700>
 
 * Select the **Metadata** tab
 * Note that the dataset is cited as part of the tale metadata. The citation remains during export and publish.
 
-<img src="images/external-data/data-citation.png" width=500>
+<img src="images/external-data/data-citation.png" width=700>
 
 What's happening?
 * The selected file is added to your tale's external data folder (`../data`) and cited in tale metadata
@@ -64,7 +64,7 @@ What's happening?
 * Open the **wt_quickstart.ipynb** notebook then **Run** > **Run All Cells** in JupyterLab
 * A map of water usage by county in Texas should display
 
-<img src="images/external-data/water-tale.png" width=500>
+<img src="images/external-data/water-tale.png" width=700>
 
 What's happening?
 * The notebook reads the file from `../data`
