@@ -25,3 +25,7 @@ With Whole Tale you can:
 * Export a tale
 * Publish your tale to supported repositories via Whole Tale
 * Publish an exported tale to any repository outside of Whole Tale
+
+## Next
+
+[Back to top](README.md)
