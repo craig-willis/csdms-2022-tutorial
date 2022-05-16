@@ -12,4 +12,6 @@ Lessons:
 * [Sharing, exporting and publishing tales](4-sharing.md)
 * [Working with externally registered data](5-external-data.md)
 * [Working with MATLAB](6-matlab.md)
+* [Review](7-review.md)
 * [Post-Clinic Questionnaire](https://forms.gle/aZEhN4KSLTpVgXNF8)
+
