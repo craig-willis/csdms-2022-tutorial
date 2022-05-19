@@ -40,6 +40,7 @@ A note about what you are authorizing:
 * Know who you are (your name)
 * Know some details about you (your profile in Globus)
 * Transfer files via Globus (We can initiate transfers on your behalf to Whole Tale)
+* Enable use of DERIVA services
 * Know your email address 
 * View your identities in Globus auth (if you have merged identities)
 
