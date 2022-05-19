@@ -29,8 +29,8 @@ To share a tale with another user (Note: currently collaborators must have an ex
 * Use the **Collaborator search box** to search for their name
 * Select the desired permission:
   - **Can view**: Has read-only access to your tale, but can make a copy.
-  - **Can edit**: Has edit permission to your tale.
-  - **Owns**: Co-owns the tale (i.e., can delete tale versions, recorded runs, or the tale itself; can publish)
+  - **Can edit**: Has write permission to your tale: can edit metadata, create/delete files, register data, create/rename versions/runs, publish)
+  - **Owns**: Co-owns the tale: can share with other users, delete versions/runs, delete the tale
 
 Note:
 * Users with read-only access to your tale must make a copy to start an interactive environment. 
