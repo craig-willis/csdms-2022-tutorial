@@ -80,7 +80,7 @@ The "Home" folder is a special folder that can be used to store files that are n
 * Select the **Run Tale** button
 * A notification panel will display (building image, starting container, success)
 * The JupyterLab environment will display below the *Interact* tab
-* Optionally, select the "popout"  <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/up-right-from-square.svg"  width="20" height="20"> iconto open the environment in a separate tab or window
+* Optionally, select the "popout"  <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/up-right-from-square.svg"  width="20" height="20"> icon to open the environment in a separate tab or window
 
 You should see an empty JupyterLab environment:
 
