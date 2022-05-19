@@ -40,7 +40,7 @@ What's happening?
 ## Activity: Add the data to your tale
 
 * Select the **Files** tab then **External Data**
-* Select the blue **+** butthen then **WT Data Catalog**
+* Select the blue **+** button then then **WT Data Catalog**
 * In the catalog window, double-click the "Humans and Hydrology..." dataset
 * Single click the `usco2005.xls` file then **Add Selected** then **Save**
 
