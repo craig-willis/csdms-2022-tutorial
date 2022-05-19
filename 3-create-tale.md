@@ -200,6 +200,7 @@ The easiest way to inspect the run is in the JupyterLab instance:
   - `runs/<run name>/workspace/.stderr`: Standard error from the run
   - `runs/<run name>/workspace/.stdout`: Standard output from the run
   - `runs/<run name>/workspace/.docker_stats`: Container runtime statistics including CPU and memory usage
+* Optionally `cat ../runs/<run name>/workspace/.stdout` and `cat ../runs/<run name>/workspace/.stderr` to see the captured program output and `cat ../runs/<run name>/workspace/.docker_stats` to see the collected container runtime usage information.
 
 
 ## Key points:
