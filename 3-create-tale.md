@@ -45,7 +45,10 @@ From this page you can:
 * Edit your tale's metadata including title, authors, description, license
 * Specify an image that displays in the Whole Tale catalog
 * Change the interactive environment
-* Note: You must provide a valid ORCID for each author for export and publishing
+
+Add a valid ORCID URL:
+* You must provide a valid ORCID URL for each author for export and publishing
+* If you do not have an ORCID account, you'll need to create one at https://orcid.org/
 
 Select **Save**.
 
