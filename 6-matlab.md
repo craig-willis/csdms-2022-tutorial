@@ -69,3 +69,7 @@ For this example, we'll demonstrate only the Jupyter kernel.
 * MATLAB network licenses are provided by Jetstream host institutions and subject to terms of use
 * You can interact with MATLAB via Jupyter, the MATLAB Web Desktop, or XPRA (web-based VNC)
 
+
+## Next
+
+[Review](7-review.md)

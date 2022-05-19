@@ -45,7 +45,10 @@ From this page you can:
 * Edit your tale's metadata including title, authors, description, license
 * Specify an image that displays in the Whole Tale catalog
 * Change the interactive environment
-* Note: You must provide a valid ORCID for each author for export and publishing
+
+Add a valid ORCID URL:
+* You must provide a valid ORCID URL for each author for export and publishing
+* If you do not have an ORCID account, you'll need to create one at https://orcid.org/
 
 Select **Save**.
 
@@ -75,9 +78,9 @@ The "Home" folder is a special folder that can be used to store files that are n
 ## Activity: Launching and accessing the interactive environment
 
 * Select the **Run Tale** button
-* A notification panel will display
+* A notification panel will display (building image, starting container, success)
 * The JupyterLab environment will display below the *Interact* tab
-* Optionally, select the "popout" icon to open the environment in a separate tab or window
+* Optionally, select the "popout"  <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/up-right-from-square.svg"  width="20" height="20"> iconto open the environment in a separate tab or window
 
 You should see an empty JupyterLab environment:
 
@@ -134,6 +137,34 @@ With the Landlab dependencies installed, you can interactively run the script:
 
 
 <img src="images/create-tale/landlab-output.png" width=500>
+
+
+Note: the following output is expected:
+```0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+/srv/conda/envs/notebook/lib/python3.8/site-packages/landlab/plot/imshow.py:454: MatplotlibDeprecationWarning: You are modifying the state of a globally registered colormap. In future versions, you will not be able to modify a registered colormap in-place. To remove this warning, you can make a copy of the colormap first. cmap = copy.copy(mpl.cm.get_cmap("pink"))
+  cmap.set_bad(color=color_for_closed)
+/srv/conda/envs/notebook/lib/python3.8/site-packages/landlab/plot/imshow.py:494: MatplotlibDeprecationWarning: The 'norm' parameter to Colorbar has no effect because it is overridden by the mappable; it is deprecated since 3.3 and will be removed two minor releases later.
+  cb = plt.colorbar(norm=norm, shrink=shrink)
+```
 
 ## Activity: Starting a recorded run
 
