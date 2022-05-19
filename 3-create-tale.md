@@ -120,10 +120,14 @@ Whole Tale allows you to specify software dependencies using `repo2docker` conve
 
 The uploaded Conda `environment.yml` specifies the Landlab dependencies required by the example script, but they are not yet installed in your environment. 
 
+<img src="images/create-tale/tale-rebuild.png" width=500>
+
 To install these dependencies (build them into the underlying Docker image):
 * Select the tale <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/ellipsis-vertical.svg" width="20" height="20"> menu > **Rebuild Tale**
   - A notification panel will display the progress of the build
 * Select the tale <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/ellipsis-vertical.svg" width="20" height="20"> menu > **Restart Tale**
+
+
 
 ## Activity: Run the example program
 
