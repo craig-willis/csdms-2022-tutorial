@@ -72,7 +72,7 @@ What's happening?
 
 ## Key points:
 * Whole Tale allows you to register and add external data to your tales to prevent duplication of data and ensure proper attribution.
-
+* Whole Tale has an extensible data registration framework and we regularly add providers for new communities. Currently, data can be registered from Zenodo, Dataverse, DataONE member nodes, Materials Data Facility and soon DERIVA systems.
 
 ## Next
 
