@@ -74,10 +74,11 @@ _Research compendium package for d'Alpoim Guedes and Bocinsky 2018_
 * Published research compendium: https://zenodo.org/record/1405073
 * Associated Github repository: https://github.com/bocinsky/guedesbocinsky2018
 
+
 Consider the following:
-* The Github repository contains materials to reproduce results reported in a peer-reviewed paper.
+* The Github repository contains materials to reproduce results reported in a peer-reviewed paper (http://doi.org/10.1126/sciadv.aar4491).
 * A specific version of the repository has been archived to Zenodo to obtain a DOI.
-* The repository contains a Dockerfile and has an associated Docker image.
+* The repository contains a Dockerfile (https://github.com/bocinsky/guedesbocinsky2018/blob/master/Dockerfile) and has an associated Docker image  on DockerHub (https://hub.docker.com/r/bocinsky/guedesbocinsky2018/)
 
 #### What is Docker?
 
