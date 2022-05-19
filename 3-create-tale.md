@@ -181,14 +181,15 @@ What's happening?
 * A version of your tale is created
   - In the dashboard, browse to **Files > Saved Versions** to see the version
   - In the container, `ls ../versions`
+  - This is the version of your tale and workspace used for executing the run (i.e., figures folder should not exist if removed in step above)
+* A new container is started using the tale image
+* The `run.sh` entrypoint script is executed
 * A new recorded run is created from the version
   - In the dashboard, browse to **Files > Recorded Runs** to see the run
   - In the container, `ls ../runs`
-* A new container is started using the tale image
-* The `run.sh` entrypoint script is captured
+  - The run contains a reference to the created version plus results, outputs, and container statistics.
 
 The run should complete with a status "Success". 
-
 
 <img src="images/create-tale/recorded-run-success.png" width=500>
 
