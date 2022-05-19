@@ -57,9 +57,9 @@ For this example, we'll demonstrate only the Jupyter kernel.
 
 <img src="images/matlab/create-tale.png" width=500>
 
-** Select **Run Tale** to start the JupyterLab environment
-** Open the **multiplicative_arima_example.ipynb** notebook
-** In JupyerLab, select **Run** > **Run All Cells**
+* Select **Run Tale** to start the JupyterLab environment
+* Open the **multiplicative_arima_example.ipynb** notebook
+* In JupyertLab, select **Run** > **Run All Cells**
 
 <img src="images/matlab/jupyter-matlab.png" width=500>
 
@@ -67,7 +67,7 @@ For this example, we'll demonstrate only the Jupyter kernel.
 ## Key points
 * Whole Tale supports commercial software including MATLAB by using custom `repo2docker` buildpacks
 * MATLAB network licenses are provided by Jetstream host institutions and subject to terms of use
-* You can interact with MATLAB via Jupyter, the MATLAB Web Desktop, or XPRA (web-based VNC)
+* This exercise demonstrated the Jupyter Kernel integration, but you can also use the Web Desktop or XPRA (web-based VNC) environments.
 
 
 ## Next
