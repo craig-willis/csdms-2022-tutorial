@@ -154,7 +154,7 @@ Note:
 
 ## Activity 5: Exploring a tale
 
-Here is an example tale based on the above replication package: https://doi.org/10.5072/zenodo.1059962
+Here is an example tale based on the above replication package: https://sandbox.zenodo.org/record/1059962#.YoamyZPMLlw
 
 Consider the following:
 * It contains the same code, data, and instructions as Activity 4
