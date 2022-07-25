@@ -2,6 +2,8 @@
 
 Tutorial materials for CSDMS Annual Meeting, May 19th, 2022.
 
+Tutorial [recording](https://youtu.be/JO7CQtCswvQ)
+
 Accompanying [presentation](https://docs.google.com/presentation/d/1-ymuiZCEAixkPhCeg3ISwoyWOko8e9dt-1m1P2WBgz8/edit#slide=id.g615dfd15c5_0_0)
 
 Lessons:
